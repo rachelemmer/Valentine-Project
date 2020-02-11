@@ -3,8 +3,10 @@ class ActivitiesController < ApplicationController
     def index
         @activities = Activity.all 
 
-        render json: @activities 
+        render json: @activities
     end 
+
+ 
 
     def show 
         @activity = Activity.find(params[:id])
@@ -20,9 +22,9 @@ class ActivitiesController < ApplicationController
             title: params[:title],
             location: params[:location], 
             what_to_bring_or_buy: params[:what_to_bring_or_buy],
-            image: params[:location]
+            image: params[:image]
         )
-        redirect_to "http://localhost:3000/activities"
+        redirect_to 'http://localhost:3000/activities'
     end 
 
     def update 
