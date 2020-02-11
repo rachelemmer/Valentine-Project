@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: one
+  budget: MyString
+  personality: MyString
+  title: MyString
+  location: MyString
+  what_to_bring_or_buy: MyString
+  image: MyString
+
+two:
+  category: two
+  budget: MyString
+  personality: MyString
+  title: MyString
+  location: MyString
+  what_to_bring_or_buy: MyString
+  image: MyString
