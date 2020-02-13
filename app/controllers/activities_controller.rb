@@ -54,6 +54,6 @@ class ActivitiesController < ApplicationController
         @activity.destroy 
 
         # render status: :no_content 
-        redirect_to "http://localhost:3001/show.html?id"
+        redirect_to "http://localhost:3001"
     end 
 end
