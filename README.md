@@ -5,7 +5,7 @@ Title: Valentine's Day Activities
 
 Description: Webpage allowing user to find activities that can be fun for the Valentine's Day holiday. The user can find activities based on the category the activities are associated with, and can create and delete an activity, as well as update the location of an activity. 
 
-![](Project2.2020-02-14 10_51_00.gif)
+![](Project2.gif)
 
 Installation: 
 This application uses: 
