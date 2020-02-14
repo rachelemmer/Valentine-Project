@@ -1,24 +1,39 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Title: Valentine's Day Activities
 
-* Ruby version
+Description: Webpage allowing user to find activities that can be fun for the Valentine's Day holiday. The user can find activities based on the category the activities are associated with, and can create and delete an activity, as well as update the location of an activity. 
 
-* System dependencies
+![](Project2.2020-02-14 10_51_00.gif)
 
-* Configuration
+Installation: 
+This application uses: 
+    - Rails version 6.0.2.1 
+    - Ruby  2.6.1 
+Fork & Clone down repository, run Bundle Install, run rails DB:create, run rails DB:seed. Confirm that rails server is running on the 3000 port, and front-end server runs on 3001. 
 
-* Database creation
+    Note: 
+        -Assure that gem 'rack-cors' is uncommented, and the method in the cors.rb file is uncommented with origin accounting for all possible origins. 
+        -Controllers are dependent on method overide, therefore unccomment the following code in the application.rb file: 
+            config.api_only = true
+            config.middleware.use Rack::MethodOverride 
 
-* Database initialization
+Dependencies: 
+- gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+- gem 'sqlite3', '~> 1.4'
+- gem 'puma', '~> 4.1'
+- gem 'bootsnap', '>= 1.4.2', require: false
+- gem 'rack-cors' 
+- gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+- gem 'listen', '>= 3.0.5', '< 3.2'
+- gem 'spring'
+- gem 'spring-watcher-listen', '~> 2.0.0'
+- gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+About Application: 
+This application was made by Rachel Emmer and Lillian Bitner as part of the Module 2 project in the Flatiron School Software Engineering Bootcamp program. It incorporates full CRUD functionality as well as a 1:M relationship between models in the Rails API. 
 
-* Deployment instructions
 
-* ...
+
