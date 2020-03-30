@@ -1,13 +1,13 @@
 # README
 
 
-Title: Valentine's Day Activities
+## Title: Valentine's Day Activities
 
-Description: Webpage allowing user to find activities that can be fun for the Valentine's Day holiday. The user can find activities based on the category the activities are associated with, and can create and delete an activity, as well as update the location of an activity. 
+## Description: Webpage allowing user to find activities that can be fun for the Valentine's Day holiday. The user can find activities based on the category the activities are associated with, and can create and delete an activity, as well as update the location of an activity. 
 
 ![](Project2.gif)
 
-Installation: 
+## Installation: 
 This application uses: 
     - Rails version 6.0.2.1 
     - Ruby  2.6.1 
@@ -19,7 +19,7 @@ Fork & Clone down repository, run Bundle Install, run rails DB:create, run rails
             config.api_only = true
             config.middleware.use Rack::MethodOverride 
 
-Dependencies: 
+## Dependencies: 
 - gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 - gem 'sqlite3', '~> 1.4'
 - gem 'puma', '~> 4.1'
@@ -32,7 +32,7 @@ Dependencies:
 - gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] 
 
 
-About Application: 
+## About Application: 
 This application was made by Rachel Emmer and Lillian Bitner as part of the Module 2 project in the Flatiron School Software Engineering Bootcamp program. It incorporates full CRUD functionality as well as a 1:M relationship between models in the Rails API. 
 
 
